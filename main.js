@@ -13,6 +13,7 @@ load.action("Action", async function () {
     var sum = 0;
     sum = a + b;
     load.log("The sum of a + b is: " + sum);
+    load.log("This is my first change to the main script..");
 
     transaction_01.stop();
     load.log("The transaction took " + transaction_01.duration + " milliseconds");
