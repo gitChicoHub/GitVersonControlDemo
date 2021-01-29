@@ -1,0 +1,28 @@
+[14:01:27.38] Debug: Running build Release_2021.0.0_2004 on windows
+[14:01:27.39] Info: Starting initialize.
+[14:01:27.39] Info: Ending initialize.
+[14:01:27.39] Info: Starting iteration 1.
+[14:01:27.39] Info: Transaction 'Start_01' started.	(./main.js:7:20)
+[14:01:27.39] Info: Hello there! Let's debug	(./main.js:9:10)
+[14:01:27.39] Info: The sum of a + b is: 15	(./main.js:15:10)
+[14:01:27.39] Info: Transaction 'Start_01' ended with a 'Passed' status (Duration: 1 ms., ThinkTime: 0 ms.).	(./main.js:17:20)
+[14:01:27.39] Info: The transaction took 1 milliseconds	(./main.js:18:10)
+[14:01:27.39] Info: Ending iteration 1.
+[14:01:27.39] Info: Waiting 5 seconds for iteration pacing.
+[14:01:32.40] Info: Starting iteration 2.
+[14:01:32.40] Info: Transaction 'Start_01' started.	(./main.js:7:20)
+[14:01:32.40] Info: Hello there! Let's debug	(./main.js:9:10)
+[14:01:32.40] Info: The sum of a + b is: 15	(./main.js:15:10)
+[14:01:32.40] Info: Transaction 'Start_01' ended with a 'Passed' status (Duration: 0 ms., ThinkTime: 0 ms.).	(./main.js:17:20)
+[14:01:32.40] Info: The transaction took undefined milliseconds	(./main.js:18:10)
+[14:01:32.40] Info: Ending iteration 2.
+[14:01:32.40] Info: Waiting 5 seconds for iteration pacing.
+[14:01:37.40] Info: Starting iteration 3.
+[14:01:37.40] Info: Transaction 'Start_01' started.	(./main.js:7:20)
+[14:01:37.40] Info: Hello there! Let's debug	(./main.js:9:10)
+[14:01:37.40] Info: The sum of a + b is: 15	(./main.js:15:10)
+[14:01:37.40] Info: Transaction 'Start_01' ended with a 'Passed' status (Duration: 1 ms., ThinkTime: 0 ms.).	(./main.js:17:20)
+[14:01:37.40] Info: The transaction took 1 milliseconds	(./main.js:18:10)
+[14:01:37.40] Info: Ending iteration 3.
+[14:01:37.41] Info: Starting finalize.
+[14:01:37.41] Info: Ending finalize.

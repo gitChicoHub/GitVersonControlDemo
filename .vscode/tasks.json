@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "DevWebSingleRun",
+            "type": "process",
+            "command": "${env:DevWeb}\\DevWeb.exe",
+            "args": [
+                "-ide=vscode",
+				"-mode=single",
+				"-iterations=2",
+				"-pacing=3",
+                "${cwd}"
+            ]
+        },
+        {
+            "label": "DevWebLoadRun",
+            "type": "process",
+            "command": "${env:DevWeb}\\DevWeb.exe",
+            "args": [
+                "-ide=vscode",
+                "-mode=load",
+                "${cwd}"
+            ]
+        },
+        {
+            "label": "DevWebDebugRun",
+            "type": "process",
+            "command": "${env:DevWeb}\\DevWeb.exe",
+            "isBackground": true,
+            "args": [
+                "-ide=vscode",
+                "-inspect",
+                "${cwd}"
+            ]
+        }
+    ]
+}
